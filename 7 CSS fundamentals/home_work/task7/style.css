@@ -1,0 +1,88 @@
+body {
+    overflow: hidden;
+}
+
+.container {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to top, blue, red);
+    border-radius: 50%;
+    margin: auto;
+    animation: metamorph 10s infinite linear;
+}
+
+@keyframes metamorph {
+    0% {
+        border-radius: 50%;
+        transform: skew(0deg);
+        background: linear-gradient(to top, blue, red);
+        width: 90px;
+        height: 90px;
+    }
+    15% {
+        border-radius: 0%;
+        transform: skew(0deg);
+        background: linear-gradient(to top, blue, red);
+        width: 90px;
+        height: 90px;
+    }
+    35% {
+        background: linear-gradient(to bottom, blue, red);
+        transform: skew(0deg);
+        width: 90px;
+        height: 90px;
+        border-radius: 0%;
+    }
+    55% {
+        transform: scale(2);
+        background: linear-gradient(to bottom, blue, red);
+        width: 90px;
+        height: 90px;
+        border-radius: 0%;
+    }
+
+    65% {
+        transform: skew(45deg);
+        background: linear-gradient(to bottom, blue, red);
+        width: 90px;
+        height: 90px;
+        border-radius: 0%;
+    }
+    
+    75% {
+        background: linear-gradient(to bottom, blue, red);
+        width: 90px;
+        height: 90px;
+        border-radius: 0%;
+        transform: skew(0deg);
+    }
+
+    85% {
+        transform: rotate(90deg);
+        background: linear-gradient(to bottom, blue, red);
+        width: 90px;
+        height: 90px;
+        border-radius: 0%;
+    }
+
+    95% {
+        background: linear-gradient(to top, blue, red);
+        transform: rotate(90deg);
+        width: 90px;
+        height: 90px;
+        border-radius: 0%;
+    }
+    100% {
+        border-radius: 50%;
+        background: linear-gradient(to top, blue, red);
+        transform: rotate(90deg);
+        width: 90px;
+        height: 90px;
+    }
+}

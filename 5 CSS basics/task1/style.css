@@ -1,0 +1,133 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    color: grey;
+}
+
+.header {
+    background-color: azure;
+    width: 150px;
+    height: 120px;
+    margin: 10px;
+    padding: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h1,p {
+    padding: 5px;
+}
+
+div {
+    background-color: beige;
+}
+
+.image {
+    height: 300px;
+    background-image: url(6874747073367.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.em {
+    font-size: 5em;
+    color: #00FF00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rem {
+    font-size: 5rem;
+    color: rgb(0,0,255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.vw {
+    font-size: 5vw;
+    color: rgb(255,0,255,.2);
+    font-style: italic;
+}
+
+.vh {
+    font-size: 5vh;
+    font-style: oblique;
+}
+
+.per {
+    font-size: 5%;
+}
+
+.cm {
+    font-size: 5cm;
+    font-variant: small-caps;
+}
+
+.mm {
+    font-size: 5mm;
+    font-weight: bold;
+}
+
+.in {
+    font-size: 5in;
+    font-weight: 100;
+}
+
+.pt {
+    font-size: 5pt;
+    text-align: right;
+}
+
+.px {
+    font-size: 5px;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.indent {
+    text-indent: 50em;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.spacing {
+    letter-spacing: .5em;
+}
+
+.line-height {
+    line-height: 2em;
+}
+
+.text-shadow {
+    text-shadow: 10px 10px 10px lightblue;
+}
+
+#super {
+    vertical-align: super;
+}
+
+.pre {
+    white-space: pre;
+}
+
+.word-spacing {
+    word-spacing: 1em;
+}

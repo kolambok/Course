@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.android-image {
+    margin: 4px 5px;
+    height: 887px;
+    width: 887px;
+    background: url('android_3_05081735.png') no-repeat;
+    background-size: contain;
+    box-shadow: inset 0px 0px 40px 5px #555;
+}

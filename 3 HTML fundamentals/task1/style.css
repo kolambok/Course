@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    text-align: left;
+}
+
+.green {
+    background: #b5dcb3;
+}
+
+.grey {
+    background: lightgrey;
+}
+
+.header{
+    height: 70px;
+}
+
+.header h2 {
+    font-size: 30px;
+}
+
+.menu {
+    font-size: 22px;
+}
+
+.main {
+    
+}

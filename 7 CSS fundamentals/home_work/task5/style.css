@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-height: 100vh;
+}
+
+.loader {
+    margin: 30% auto;
+    width: 90px;
+    height: 90px;
+}
+
+.outer-circle {
+    background: #ccc;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    animation: move  2s infinite linear;
+}
+
+.inner-circle {
+    background: #777;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* border: 25px solid transparent; */
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+@keyframes move {
+    from {transform: rotate(0);}
+
+    25 % {transform: rotate(90deg);}
+
+    50 % {transform: rotate(180deg);}
+
+    75 % {transform: rotate(20deg);}
+
+    to {transform: rotate(360deg);}
+}

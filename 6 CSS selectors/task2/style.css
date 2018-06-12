@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    color: #4C637B;
+}
+
+.list {
+    padding: 2px 0 0 3px;
+}
+
+tr:not(:first-child):hover {
+    background-color: #E2E5E9;
+}
+
+.header {
+    background-color: #E3EAF3;
+    color: #758697;
+}
+
+th {
+    padding: 5px 0;
+}
+
+td {
+    padding: 20px 16px 16px 17px;
+    font-size: 12.5px;
+    letter-spacing: .85px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.light-blue {
+    background-color: #E8EDF4;
+}
+
+.light-grey {
+    background-color: #F2F6FA;
+}

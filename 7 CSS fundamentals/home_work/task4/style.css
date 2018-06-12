@@ -1,0 +1,14 @@
+p {
+    background: #CAD8D0;
+    max-width: 900px;
+    font-size: 11px;
+}
+
+@media screen and (max-width: 500px) {
+    
+    p {
+        max-width: 362px;
+        font-size: 18px;
+    }
+
+}
