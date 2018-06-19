@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #444;
+}
+
+.menu {
+    display: flex;
+    background: url(layout/bg.png);
+    height: 34px;
+    border: 8px solid #fff;
+    justify-content: space-between;
+}
+
+.notifications,
+.main {
+    display: flex;
+    list-style: none;
+}
+
+.notifications {
+    align-content: flex-start;
+}
+
+.main {
+    align-content: flex-end;
+}
+
+.item {
+    background: #3779B0;
+    width: 30px;
+}
+
+.notifications .item {
+    margin-right: .14em;
+}
+
+.main .item {
+    margin-left: .13em;
+}
+
+.messages {
+    width: 3.55em;
+    background: #3779B0 url(layout/icons/mail.png) no-repeat 23% 50%;
+    position: relative;
+}
+
+.messages:after {
+    content: "2";
+    color: #fff;
+    font-size: .6em;
+    background: #E03838;
+    padding: 4px 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 44%;
+}
+
+.news {
+    width: 5.1em;
+    background: #3779B0 url(layout/icons/page.png) no-repeat 14% 50%;
+    position: relative;
+}
+
+.news:after {
+    content: "223986";
+    color: #fff;
+    font-size: .6em;
+    background: #E03838;
+    padding: 4px 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.friends {
+    width: 3.4em;
+    background: #3779B0 url(layout/icons/user.png) no-repeat 25% 49%;
+    position: relative;
+}
+
+.friends:after {
+    content: "!";
+    color: #fff;
+    font-size: .6em;
+    background: #E03838;
+    padding: 4px 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 46%;
+}
+
+.system {
+    width: 2.2em;
+    background: #3779B0 url(layout/icons/flag.png) no-repeat 50% 50%;
+}
+
+.checked {
+    width: 2.2em;
+    background: #3779B0 url(layout/icons/checked.png) no-repeat 50% 50%;
+}
+
+.refresh {
+    width: 2.2em;
+    background: #3779B0 url(layout/icons/refresh.png) no-repeat 50% 50%;
+}
+
+.g-menu {
+    width: 2.1em;
+    background: #3779B0 url(layout/icons/widget.png) no-repeat 55% 50%;
+}
+
+.log-out {
+    width: 7.5em;
+    background: #2F2F35 url(layout/icons/exit.png) no-repeat 92% 50%;
+}
+
+.link {
+    color: #fff;
+    padding: 28px;
+    line-height: 2em;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.item {
+    transition: all .3s;
+}
+
+.item:hover {
+    background-color: #E03838;
+}
+
+.item:hover:after {
+    background-color: #3779B0;
+}
