@@ -112,3 +112,76 @@ body {
     background: #8DC748;
     color: #FEFEFD;
 }
+
+/* ----------inline-block features begining---------- */
+
+.details-inline-block,
+.live-demo-inline-block {
+    text-transform: capitalize;
+    padding: 7px 19px;
+    border: 1px solid #ced1c5;
+    border-radius: 3px;
+    color: #918793;
+    background: linear-gradient(to top, #F1F2EB, #FEFEFD);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.buttons-block {
+    text-align: justify;
+}
+
+.buttons-block:after{
+	content: "";
+	width: 100%;
+	display: inline-block;
+}
+
+.details-inline-block {
+    /* float: left; */
+}
+
+.live-demo-inline-block {
+    /* float: right; */
+}
+
+.details:hover,
+.live-demo:hover {
+    background: #8DC748;
+    color: #FEFEFD;
+}
+
+/* ----------inline-block features end---------- */
+
+/* ----------flex-box features begining---------- */
+
+.section-flex {
+    display: flex;
+    width: 700px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.row-flex {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tab-flex {
+    display: flex;
+    margin-right: 24px;
+    flex-direction: column;
+}
+
+.tab-flex:nth-child(3n) {
+    margin-right: 0;
+}
+
+.buttons-block-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+/* ----------flex-box features end---------- */
